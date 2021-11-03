@@ -13,10 +13,10 @@ fn print_action(a: Action){
     match a{
         Action::Drive => println!("Driving forward!"),
         Action::Turn(direction) => match direction {
-            Direction::Left => println!("going left sucker ..."),
-            Direction::Right => println!("going to the right mother s.."),
+            Direction::Left => println!("going left 'pal ..."),
+            Direction::Right => println!("going to the right 'pal"),
         },
-        Action::Stop => println!("Stop sucker!"),
+        Action::Stop => println!("Stop 'pal"),
     }
 }
 
